@@ -1,4 +1,21 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex-grow: 1;
   text-align: center;
+}
+
+@media(min-width: 728px) {
+  .card {
+    width: 40rem !important;
+  }
 }

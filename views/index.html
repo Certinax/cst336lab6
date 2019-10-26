@@ -1,14 +1,18 @@
 <% include partials/header.ejs %>
-
-<h1>Welcome to the Solar System Site</h1>
-    <p>Click on a planet to know more about it:</p>
-    <a href="/mercury">Mercury</a>
-    <a href="/venus">Venus</a>
-    <img
-      src="/img/solar_system.jpg"
-      width="500"
-      height="500"
-      alt="Solar System"
-    />
-
-<% include partials/footer.ejs %>
+<div class="content mt-4">
+<div class="row">
+  <div class="col-lg-12">
+      <div class="card mx-auto" style="width: 18rem;">
+          <img src="/img/solar_system.jpg" height=250 class="card-img-top" alt="Solar System">
+          <div class="card-body">
+            <h5 class="card-title">Welcome to the Solar System Site</h5>
+            <p class="card-text">Click on a planet to know more about it.</p>
+          </div>
+          <div class="card-body">
+              <p>The Solar System is the gravitationally bound system of the Sun and the objects that orbit it, either directly or indirectly. Of the objects that orbit the Sun directly, the largest are the eight planets, with the remainder being smaller objects, such as the five dwarf planets and small Solar System bodies. Of the objects that orbit the Sun indirectly—the moons—two are larger than the smallest planet, Mercury.</p>
+          </div>
+        </div>
+  </div>
+</div>
+</div>
+  <% include partials/footer.ejs %>
